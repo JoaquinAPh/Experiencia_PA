@@ -10,9 +10,10 @@ def memoria():
     num2 = random.randint(0,9)
     num3 = random.randint(0,9)
     print(f"{num1} {num2} {num3}")
-    res1 = int(input())
-    res2 = int(input())
-    res3 = int(input())
+    input("Si te los aprendiste, apreta enter")
+    res1 = int(input("Número 1: "))
+    res2 = int(input("Número 2: "))
+    res3 = int(input("Número 3: "))
     if res1 == num1 and res2 == num2 and res3 == num3:
         print("GUAU! Que buena memoria!")
     else:

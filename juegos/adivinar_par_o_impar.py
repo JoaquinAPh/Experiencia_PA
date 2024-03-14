@@ -10,7 +10,6 @@ def adivinar_par_o_impar():
     adivina = input("Adivina si estoy pensando en un número par o impar: ")
 
     if (numero % 2 == 0 and adivina == "par") or (numero % 2 != 0 and adivina == "impar"):
-        print ("ESO ES! Crack")
+        print (f"ESO ES! Crack, el número era {numero}")
     else:
-        print("Pusha no, era el otro")
-    print(f"El número era {numero}")
+        print(f"Pusha no, el número era {numero}")
