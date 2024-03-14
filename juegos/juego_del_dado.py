@@ -13,8 +13,8 @@ def juego_del_dado():
         print("¡Ganaste!")
     else:
         print("¡Perdiste!")
-        print("Puntos jugador:", j1)
-        print("Puntos bot:", bot)
+    print("Puntos jugador:", j1)
+    print("Puntos bot:", bot)
 
 
 
