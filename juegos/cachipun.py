@@ -1,6 +1,7 @@
 import random
 
-def cachipun(seleccion):
+def cachipun():
+    seleccion = input("¿Piedra, Papel o Tijera? ")
     bot = random.randint(1, 3)
     j1 = 0
 
@@ -29,8 +30,7 @@ def cachipun(seleccion):
     else:
         print("Bot eligio Tijera")
 
-seleccion = "Piedra"
-cachipun(seleccion)
+
 
     
 
